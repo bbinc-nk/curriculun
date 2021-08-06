@@ -1,5 +1,3 @@
-import jdk.internal.icu.lang.UCharacter.NumericType;
-
 /**
  * Task1_1: 課題内容
  *
@@ -30,10 +28,10 @@ public class Task1_1 {
         hogeString = "合格";
 
         // ⑥変数 hogeInt の値を表示
-        System.out.println(hogeInt\n);
+        System.out.println(hogeInt);
         // ⑦下記の処理について、何をしているのかコメントを記入してください
         // [変数 hogeString の値を表示]
-        System.out.println(hogeString\n);
+        System.out.println(hogeString);
 
         // ⑧変数 hogeDouble の値を表示
         System.out.println(hogeDouble);

@@ -21,12 +21,12 @@ Switch1　　　F0/1　DP ・・・ルートポートの対向ポートだから
 　　　　　　 F0/2　RP ・・・Switch1-Switch3=19で最短
 
 Switch2　　  F0/1　RP ・・・Switch2-Switch1-Switch3=38で最短
-	 　　F0/2　DP ・・・ルートポートの対向ポートだから
+	 　　F0/2　BP ・・・RP,DPのどちらにも選出されなかったから
 
 Switch3	     E0/1  DP ・・・Switch3がルートブリッジだから
 	     E0/2  DP ・・・Switch3がルートブリッジだから
 
-Switch4　　  E0/1　BP ・・・RP,DPのどちらにも選出されなかったから
+Switch4　　  E0/1　DP ・・・ルートポートの対向ポートだから
   	     E0/2　RP ・・・Switch4-Switch3=100で最短
 
 
